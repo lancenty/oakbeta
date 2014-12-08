@@ -27,4 +27,7 @@
       <index name="ix_user_nickname" unique="true" columns="nickname"/>
     </table>
   </data-source>
+  <data-source name="MySQL - oak@oak.chicfghh5r7k.eu-central-1.rds.amazonaws.com" uuid="b91bb79d-f8ed-4f77-a1f8-f7588595b374">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

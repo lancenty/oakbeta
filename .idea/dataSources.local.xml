@@ -2,5 +2,10 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="app" uuid="883cd55a-b2a8-46f6-bf48-9a666f84d38c" />
+    <data-source name="MySQL - oak@oak.chicfghh5r7k.eu-central-1.rds.amazonaws.com" uuid="b91bb79d-f8ed-4f77-a1f8-f7588595b374">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>oakadmin</user-name>
+    </data-source>
   </component>
 </project>

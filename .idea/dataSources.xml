@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1453118575">
+  <component name="DataSourceManagerImpl" format="xml" hash="2517752825">
     <data-source source="LOCAL" name="app" uuid="883cd55a-b2a8-46f6-bf48-9a666f84d38c">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\Lancent\PycharmProjects\oakbeta\app.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - oak@oak.chicfghh5r7k.eu-central-1.rds.amazonaws.com" uuid="b91bb79d-f8ed-4f77-a1f8-f7588595b374">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://oak.chicfghh5r7k.eu-central-1.rds.amazonaws.com:3306/oak</jdbc-url>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
       <libraries />
     </data-source>
   </component>
